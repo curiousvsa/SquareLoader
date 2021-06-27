@@ -15,11 +15,11 @@ Step 1 : Add to project root build.gradle.(Project Gradle)
 Step 2 : Add the dependency.(Module Gradle)
 ----------
 	dependencies {
-	        
+	        implementation 'com.github.vsa15:SquareLoader:v1.0.0'
 	}
 
 ----------
-Step 3 : Add the XML Layout (Start,End and Backgound Gradient colors as per your choice :metal: )
+Step 3 : Add the XML Layout (Start,End and Backgound Gradient colors :red_circle: as per your choice :metal: )
 ----------
 	<com.valencio.squareloaderanimation.SlidingSquareLoaderView
         android:id="@+id/slideLoader"
@@ -41,7 +41,7 @@ Step 4 : Implementation in the code 💻
 ----------
 	val loaderView = findViewById(R.id.slideLoader)
 ----------
-Step 5 : To Start the loader 
+Step 5 : To Start the loader 👇
 ----------
 	 loaderView.show()
 ----------
