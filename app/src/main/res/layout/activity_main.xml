@@ -3,21 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
-<!--<com.valencio.squareloaderanimation.SlidingSquareLoaderView
-                android:id="@+id/loader123"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:sslv_background_color="@color/background"
-                app:sslv_corner_radius="10dp"
-                app:sslv_end_gradient_color="@color/end_gradient_color"
-                app:sslv_margin="10dp"
-                app:sslv_square_size="@dimen/square_size"
-                app:sslv_start_gradient_color="@color/start_gradient_color"
-                />-->
+
+    <com.valencio.squareloaderanimation.SlidingSquareLoaderView
+        android:id="@+id/loader123"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sslv_background_color="@color/background"
+        app:sslv_corner_radius="10dp"
+        app:sslv_end_gradient_color="@color/end_gradient_color"
+        app:sslv_margin="10dp"
+        app:sslv_square_size="@dimen/square_size"
+        app:sslv_start_gradient_color="@color/start_gradient_color" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
