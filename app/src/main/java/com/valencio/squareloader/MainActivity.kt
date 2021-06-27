@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
             override fun onFinish() {
                 //call the squareLoader here.
                 loaderView.show()
+                /**
+                 * to hide the loader call
+                 * loaderView.hide()
+                 *
+                 * */
             }
         }.start()
 
